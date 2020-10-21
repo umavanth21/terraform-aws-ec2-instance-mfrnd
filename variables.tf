@@ -4,6 +4,18 @@ variable "name" {
   default     = "avsksam1"
 }
 
+variable "region" {
+  description = "Name to be used on all resources as prefix"
+  type        = string
+  default     = "ap-northeast-2"
+}
+
+variable "secret_key" {
+  description = "Name to be used on all resources as prefix"
+  type        = string
+  default     = "/US4aNPE4deyJTd4AWY21jyBfyDp5CvdZ106++Zh"
+}
+
 variable "instance_count" {
   description = "Number of instances to launch"
   type        = number
