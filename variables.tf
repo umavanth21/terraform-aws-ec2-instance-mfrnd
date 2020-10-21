@@ -195,4 +195,9 @@ variable "num_suffix_format" {
   default     = "-%d"
 }
 
+variable "access_key" {
+  description = "Numerical suffix format used as the volume and EC2 instance name suffix"
+  type        = string
+  default     = "AKIARIQUCTVPXV2PU7H3"
+}
 
