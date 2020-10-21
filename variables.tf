@@ -5,7 +5,7 @@ variable "name" {
 }
 
 variable "region" {
-  description = "Name to be used on all resources as prefix"
+  description = "Region value"
   type        = string
   default     = "ap-northeast-2"
 }
