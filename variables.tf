@@ -9,9 +9,6 @@ variable "region" {
 variable "secret_key" {
   description = "Name to be used on all resources as prefix"
 }
-variable "access_key" {
-  description = "Name to be used on all resources as prefix"
-}
 
 variable "instance_count" {
   description = "Number of instances to launch"
