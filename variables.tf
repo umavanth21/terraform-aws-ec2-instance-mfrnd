@@ -1,7 +1,3 @@
-variable "name" {
-  description = "Name to be used on all resources as prefix"
-}
-
 variable "region" {
   description = "Region value"
 }
