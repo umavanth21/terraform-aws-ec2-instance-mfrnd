@@ -1,19 +1,13 @@
 variable "name" {
   description = "Name to be used on all resources as prefix"
-  type        = string
-  default     = "avsksam1"
 }
 
 variable "region" {
   description = "Region value"
-  type        = string
-  default     = "ap-northeast-2"
 }
 
 variable "secret_key" {
   description = "Name to be used on all resources as prefix"
-  type        = string
-
 }
 
 variable "instance_count" {
@@ -24,8 +18,6 @@ variable "instance_count" {
 
 variable "ami" {
   description = "ID of AMI to use for the instance"
-  type        = string
-  default     = "ami-0d097db2fb6e0f05e"
 }
 
 variable "placement_group" {
