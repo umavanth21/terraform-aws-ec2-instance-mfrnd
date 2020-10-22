@@ -1,3 +1,9 @@
+provider "aws" {
+region = "${var.region}"
+access_key = "${var.access_key}"
+secret_key = "${var.secret_key}"
+}
+
 locals {
   is_t_instance_type = replace(var.instance_type, "/^t(2|3|3a){1}\\..*$/", "1") == "1" ? true : false
 }
